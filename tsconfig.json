@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs"
+    "module": "commonjs",
+    "strictNullChecks": true // null타입은 엄격하게 체크해달라는 코드랭
+    //위 코드를 false로 바꾸면 null 빡시게 안잡음
   }
 }
-//
