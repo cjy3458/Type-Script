@@ -5,6 +5,9 @@ export type Restaurant = {
   menu: Menu[];
 };
 
+// Omit은 빼는거 Pick은 지정하는거!
+export type RestaurantOnlyCategory = Pick<Restaurant, "category">;
+
 //type과 interface의 차이
 //비슷한데 type의 기능이 있음
 //Omit기능이 있음
